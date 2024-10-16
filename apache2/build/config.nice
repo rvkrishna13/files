@@ -1,0 +1,9 @@
+#! /bin/sh
+#
+# Created by configure
+
+"./configure" \
+"--with-included-apr" \
+"--enable-so" \
+"--enable-simt" \
+"$@"
